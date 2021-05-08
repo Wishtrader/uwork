@@ -1,0 +1,30 @@
+@import "./_colors";
+@import "./fonts";
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins';
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px 40px;
+  background-color: $lightgrey;
+
+  h1 {
+    color: $green;
+    margin-bottom: 0px;
+  }
+
+  hr {
+    width: 100%;
+    color: $green;
+    margin-bottom: 30px;
+  }
+}
